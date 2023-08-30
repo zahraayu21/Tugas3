@@ -1,0 +1,107 @@
+h1{
+    color: lightblue;
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: royalblue;
+    font-family: verdana;
+}
+
+li{
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursize;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    /*Menengahkan gambar*/
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+/*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/
+/*syntax CSS adalah selector(prperties: value;)*/
+
+/*selector dengan nama tag*/
+h1{
+    color: black;
+}
+
+/*selector id*/
+#judul{
+    color: orange;
+}
+/*selector class*/
+.tengah{
+    align-self: center;
+    color: blue;
+}
+
+/*Multy selector*/
+h2, h3, h4{
+    color: midnightblue;
+}
+
+/*lebih spesifik lagi bisa*/
+h2.tengah{
+    color: pink;
+}
+
+a:link{
+    color:midnightblue;
+}
+a:visited{
+    color: orange;
+}
+a:active{
+    color: darkcyan;
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #FFFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover {background-color: orange;}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+.table tr td:not(:first-child){
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+.thead td{
+    background-color: rgb(81, 130, 173);
+}
+
+#ganjil{
+    background-color: rgb(154, 193, 227);
+}
+
+#genap{
+    background-color: rgb(226, 229, 232);
+    color: rgb(5, 63, 57);
+}
+
+td:hover {
+    background-color: #ffd700;
+    color: #333;
+}
